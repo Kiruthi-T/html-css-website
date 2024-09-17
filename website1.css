@@ -1,0 +1,203 @@
+body{
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(./IMG-20240810-WA0003.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 5px;
+}
+#pro{
+    color: orangered;
+    font-size: 50px;
+    margin: 0;
+    text-align: center;
+}
+.navitem{
+    margin: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+#searchss{
+    border: 1px solid orangered;
+    outline: none;
+    margin: 20px;
+    border-radius: 5px;
+}
+.inputsearch{
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    background: transparent;
+}
+.inputsearch::placeholder{color: white;}
+.searchbtn{
+    background-color: orangered;
+    border: 1px solid orangered;
+    padding: 9px;
+}
+button{
+    cursor: pointer;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+#content{
+    width: 49%;
+}
+#contant2{
+    width: 49%;
+    display: flex;
+    justify-content: center;
+}
+#myForm{
+    width: 300px;
+    background-color: black ;
+    height: 400px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+#loginbtn{
+    color: orangered;
+    background-color: white;
+    border: none;
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+#loginbtn2{
+    color: black;
+    background-color: orangered;
+    border: none;
+    width: 70%;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 7px; 
+}
+#icons{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 3px;
+    font-size: 25px;
+}
+.dev{
+    font-size: 50px;
+    margin: 0;
+}
+.orangdev{
+    color: orangered;
+}
+#joinbtn{
+    color: black;
+    background-color: orangered;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+}
+#para{
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+}
+.myemail{
+    border: none;
+    outline: none;
+    border-bottom:1px solid orangered ;
+    background: transparent;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+}
+.myemail::placeholder{color: white;}
+p{
+    margin: 0;
+}
+span{
+    color: orangered;
+}
+.smallcontent{
+    display: none;
+    margin: 10px;
+}
+#dlinput{
+    outline: none;
+    border:1px solid  orangered;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    height: 34px;
+    width: 23px;
+    border-radius: 5px;
+}
+.navitem1{
+    margin: 5px;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid orangered ;
+    border-radius: 5px;
+}
+#dey{
+    background-color: orangered;
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+.navitem1:hover{
+    background-color:white;
+    color: orangered;
+}
+a{
+    text-align: center;
+    align-self: center;
+    padding: 9px;  
+}
+a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+@media screen and (max-width:480px){
+    #container{
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        align-content: center;
+    }
+    #content{
+        width: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    #contant2{
+        width: auto;
+    }
+    a{
+        display: none;
+    }
+    nav{
+        flex-direction: column;
+        align-content: center;
+    }
+    .smallcontent{
+        display: block;
+    }
+    #pro{
+        display: block;
+    }
+
+}
